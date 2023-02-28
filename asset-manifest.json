@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/clone_dostavka/static/css/main.9975db0b.css",
-    "main.js": "/clone_dostavka/static/js/main.2dfd4388.js",
+    "main.css": "/clone_dostavka/static/css/main.d4265120.css",
+    "main.js": "/clone_dostavka/static/js/main.75700752.js",
     "static/media/pizza1.jpg": "/clone_dostavka/static/media/pizza1.22b70b62296cdfdb8f7a.jpg",
     "static/media/pizza13.jpg": "/clone_dostavka/static/media/pizza13.f4a7e8f968348ed18ba1.jpg",
     "static/media/pizza8.jpg": "/clone_dostavka/static/media/pizza8.d5b38d1f9656fe377771.jpg",
@@ -11,15 +11,36 @@
     "static/media/pizza10.jpg": "/clone_dostavka/static/media/pizza10.39a487396ee12d142603.jpg",
     "static/media/pizza6.jpg": "/clone_dostavka/static/media/pizza6.d849017e2973907c7368.jpg",
     "static/media/pizza4.jpg": "/clone_dostavka/static/media/pizza4.d3789c76eb20f26856f9.jpg",
+    "static/media/1.jpg": "/clone_dostavka/static/media/1.8e5a04d7fae247043bd5.jpg",
     "static/media/pizza3.jpg": "/clone_dostavka/static/media/pizza3.146bf7b71a3b15b69ef8.jpg",
     "static/media/pizza11.jpg": "/clone_dostavka/static/media/pizza11.7c5ab0b2b65017f3a854.jpg",
     "static/media/pizza16.jpg": "/clone_dostavka/static/media/pizza16.d2e2658f40a555be577d.jpg",
+    "static/media/2.jpg": "/clone_dostavka/static/media/2.d8e97c675ba5bc661552.jpg",
     "static/media/pizza5.jpg": "/clone_dostavka/static/media/pizza5.b030eeeba9ceb323a740.jpg",
+    "static/media/6.jpg": "/clone_dostavka/static/media/6.0326c30162e066573697.jpg",
+    "static/media/3.jpg": "/clone_dostavka/static/media/3.e77e4967bb806460ebc4.jpg",
+    "static/media/5.jpg": "/clone_dostavka/static/media/5.b852581921030f4c5a38.jpg",
     "static/media/pizza9.jpg": "/clone_dostavka/static/media/pizza9.6279f4b53523c8343720.jpg",
     "static/media/pizza2.jpg": "/clone_dostavka/static/media/pizza2.323692da02a44c376d10.jpg",
+    "static/media/4.jpg": "/clone_dostavka/static/media/4.6db44f5660473915bce3.jpg",
+    "static/media/19.jpg": "/clone_dostavka/static/media/19.d3b907708ae130565cc8.jpg",
+    "static/media/8.jpg": "/clone_dostavka/static/media/8.7c5dde96207b0769aae2.jpg",
     "static/media/pizza12.jpg": "/clone_dostavka/static/media/pizza12.340dee989bf1fdf9efcf.jpg",
+    "static/media/7.jpg": "/clone_dostavka/static/media/7.0326c30162e066573697.jpg",
+    "static/media/9.jpg": "/clone_dostavka/static/media/9.52df1ffc4a4e16ebce0f.jpg",
+    "static/media/10.jpg": "/clone_dostavka/static/media/10.9e3dc1cb73ef63cf4679.jpg",
+    "static/media/12.jpg": "/clone_dostavka/static/media/12.50b05ea00884caa38ddf.jpg",
+    "static/media/20.jpg": "/clone_dostavka/static/media/20.d5a0cb05863ef42900f3.jpg",
+    "static/media/21.jpg": "/clone_dostavka/static/media/21.5d044c3cf64341b9d648.jpg",
     "static/media/1.png": "/clone_dostavka/static/media/1.51a3c93dc6a5748d7b59.png",
+    "static/media/14.jpg": "/clone_dostavka/static/media/14.52e4515852ee3715f5f2.jpg",
+    "static/media/11.jpg": "/clone_dostavka/static/media/11.ab95f89677a69feef199.jpg",
+    "static/media/13.jpg": "/clone_dostavka/static/media/13.f1137ab4469ae9fd092b.jpg",
+    "static/media/18.jpg": "/clone_dostavka/static/media/18.b881248a244f7944052c.jpg",
+    "static/media/15.jpg": "/clone_dostavka/static/media/15.a1b6fe44e87602d7e396.jpg",
+    "static/media/16.jpg": "/clone_dostavka/static/media/16.b77fbb854381c8299ad0.jpg",
     "static/media/pizza15.jpg": "/clone_dostavka/static/media/pizza15.0bdead058435091793f3.jpg",
+    "static/media/17.jpg": "/clone_dostavka/static/media/17.180220a68ce16b14dc9e.jpg",
     "static/media/Shaurmichka.jpg": "/clone_dostavka/static/media/Shaurmichka.c4a316a4db424bb022fd.jpg",
     "static/media/KFC.jpg": "/clone_dostavka/static/media/KFC.a83fb2df7fd86b699f61.jpg",
     "static/media/MyCherie.jpg": "/clone_dostavka/static/media/MyCherie.0afdc80571c389b01fe4.jpg",
@@ -27,11 +48,11 @@
     "static/media/pizzaDay.jpg": "/clone_dostavka/static/media/pizzaDay.429304c6f67261a0a986.jpg",
     "static/media/MyPlace.jpg": "/clone_dostavka/static/media/MyPlace.eeae8a235c13f664b164.jpg",
     "index.html": "/clone_dostavka/index.html",
-    "main.9975db0b.css.map": "/clone_dostavka/static/css/main.9975db0b.css.map",
-    "main.2dfd4388.js.map": "/clone_dostavka/static/js/main.2dfd4388.js.map"
+    "main.d4265120.css.map": "/clone_dostavka/static/css/main.d4265120.css.map",
+    "main.75700752.js.map": "/clone_dostavka/static/js/main.75700752.js.map"
   },
   "entrypoints": [
-    "static/css/main.9975db0b.css",
-    "static/js/main.2dfd4388.js"
+    "static/css/main.d4265120.css",
+    "static/js/main.75700752.js"
   ]
 }
