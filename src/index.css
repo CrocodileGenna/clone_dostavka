@@ -22,7 +22,7 @@ code {
 
 /* Убираем внутренние отступы */
 ul[class],
-ol[class] {
+li[class] {
   padding: 0;
 }
 
@@ -91,8 +91,8 @@ select {
     scroll-behavior: auto !important;
   }
 }
-.container{
+.container {
   padding: 16px;
-    margin: 0px auto;
-    max-width: 1200px;
+  margin: 0px auto;
+  max-width: 1200px;
 }
