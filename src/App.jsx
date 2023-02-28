@@ -4,8 +4,8 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 // KFC
-import menuKFC from './components/KFC/KFC.jsx';
-import titleMenuPizzaKFC from './components/KFC/titleMenuKFC.jsx';
+// import menuKFC from './components/KFC/KFC.jsx';
+// import titleMenuPizzaKFC from './components/KFC/titleMenuKFC.jsx';
 // Pizza Day;
 import menuPizza from './components/PizzaDay/pizzaDay';
 import titleMenuPizzaDay from './components/PizzaDay/titleMenuPizzaDay';
@@ -18,10 +18,10 @@ const App = () => {
       <div className="container">
         <Routes>
           <Route path="/dostavka" element={<Home />} />
-          <Route
+          {/* <Route
             path="/dostavka/KFC"
             element={<Menu arrMenu={menuKFC} titleMenu={titleMenuPizzaKFC} />}
-          />
+          /> */}
           <Route
             path="/dostavka/PizzaDay"
             element={<Menu arrMenu={menuPizza} titleMenu={titleMenuPizzaDay} />}
