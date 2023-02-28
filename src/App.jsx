@@ -17,13 +17,13 @@ const App = () => {
       <Header />
       <div className="container">
         <Routes>
-          <Route path="/dostavka" element={<Home />} />
+          <Route path="/clone_dostavka" element={<Home />} />
           {/* <Route
             path="/dostavka/KFC"
             element={<Menu arrMenu={menuKFC} titleMenu={titleMenuPizzaKFC} />}
           /> */}
           <Route
-            path="/dostavka/PizzaDay"
+            path="/clone_dostavka/PizzaDay"
             element={<Menu arrMenu={menuPizza} titleMenu={titleMenuPizzaDay} />}
           />
         </Routes>
