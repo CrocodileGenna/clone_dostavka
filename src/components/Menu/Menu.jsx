@@ -1,9 +1,9 @@
 import React from 'react';
 import { OneCard } from './OneCard';
-import { MenuStyled, TitleMenu, OnePosition, Link } from './styled/Menu.styled';
-
+import { MenuStyled } from './styled/Menu.styled';
+// import { MenuStyled, TitleMenu, OnePosition, Link } from './styled/Menu.styled';
 export function Menu({ prop }) {
-  const renderedTypes = new Set();
+  // const renderedTypes = new Set();
   return (
     <MenuStyled>
       {/* <TitleMenu>
