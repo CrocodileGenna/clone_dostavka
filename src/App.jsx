@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
-import Header from './components/Header/Header';
+import { Header } from './components/Header/Header';
 // KFC
 import menuKFC from './components/KFC/KFC.jsx';
 // import titleMenuPizzaKFC from './components/KFC/titleMenuKFC.jsx';

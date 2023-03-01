@@ -27,9 +27,9 @@ export const GlobalStyle = styled.div`
     padding-left: 0;
     list-style: none;
   }
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
+  // img {
+  //   display: block;
+  //   max-width: 100%;
+  //   height: auto;
+  // }
 `;
