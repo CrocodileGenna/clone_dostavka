@@ -6,7 +6,7 @@ export function Menu({ prop }) {
   const renderedTypes = new Set();
   return (
     <MenuStyled>
-      <TitleMenu>
+      {/* <TitleMenu>
         {prop.map(({ title }) => {
           if (!renderedTypes.has(title)) {
             renderedTypes.add(title);
@@ -18,7 +18,7 @@ export function Menu({ prop }) {
           }
           return;
         })}
-      </TitleMenu>
+      </TitleMenu> */}
       {prop.map(props => {
         return (
           <li key={props.name}>
