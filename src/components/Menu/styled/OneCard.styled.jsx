@@ -51,6 +51,7 @@ export const ButtonPrice = styled.button`
   border-radius: 4px;
   color: #ffffff;
   background-color: red;
+  text-decoration: none;
 
   :hover,
   :focus {
