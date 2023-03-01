@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/clone_dostavka/static/css/main.d4265120.css",
-    "main.js": "/clone_dostavka/static/js/main.75700752.js",
+    "main.css": "/clone_dostavka/static/css/main.051c5f12.css",
+    "main.js": "/clone_dostavka/static/js/main.28bc869c.js",
     "static/media/pizza1.jpg": "/clone_dostavka/static/media/pizza1.22b70b62296cdfdb8f7a.jpg",
     "static/media/pizza13.jpg": "/clone_dostavka/static/media/pizza13.f4a7e8f968348ed18ba1.jpg",
     "static/media/pizza8.jpg": "/clone_dostavka/static/media/pizza8.d5b38d1f9656fe377771.jpg",
@@ -48,11 +48,11 @@
     "static/media/pizzaDay.jpg": "/clone_dostavka/static/media/pizzaDay.429304c6f67261a0a986.jpg",
     "static/media/MyPlace.jpg": "/clone_dostavka/static/media/MyPlace.eeae8a235c13f664b164.jpg",
     "index.html": "/clone_dostavka/index.html",
-    "main.d4265120.css.map": "/clone_dostavka/static/css/main.d4265120.css.map",
-    "main.75700752.js.map": "/clone_dostavka/static/js/main.75700752.js.map"
+    "main.051c5f12.css.map": "/clone_dostavka/static/css/main.051c5f12.css.map",
+    "main.28bc869c.js.map": "/clone_dostavka/static/js/main.28bc869c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4265120.css",
-    "static/js/main.75700752.js"
+    "static/css/main.051c5f12.css",
+    "static/js/main.28bc869c.js"
   ]
 }
