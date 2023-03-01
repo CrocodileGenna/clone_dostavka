@@ -1,4 +1,4 @@
-import React, { useLayoutEffect } from 'react';
+import React from 'react';
 import { OneCard } from './OneCard';
 import { MenuStyled, TitleMenu, OnePosition, Link } from './styled/Menu.styled';
 
@@ -12,10 +12,11 @@ export function Menu({ prop }) {
             renderedTypes.add(title);
             return (
               <OnePosition key={title}>
-                <Link href="">{title}</Link>
+                <Link href="/">{title}</Link>
               </OnePosition>
             );
           }
+          return;
         })}
       </TitleMenu>
       {prop.map(props => {
