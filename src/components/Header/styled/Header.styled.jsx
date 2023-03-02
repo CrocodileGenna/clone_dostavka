@@ -9,67 +9,88 @@ export const HeaderStyled = styled.header`
   width: 100%;
   height: 70px;
   background-color: #fff;
-  box-shadow: 0px 0px 12px 1px;
+  box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.4);
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 760px) {
     height: 80px;
+  }
+  @media screen and (min-width: 1200px) {
+    height: 100px;
   }
 `;
 
 export const ContentHeader = styled.div`
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 5px;
   width: 100%;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 760px) {
     padding: 16px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    // padding: 16px;
+    width: 1200px;
   }
 `;
 
 export const Logo = styled.img`
-  width: 105px;
-  height: 105px;
+  width: 100px;
+  height: 100px;
 
-  @media screen and (min-width: 768px) {
-    width: 125px;
-    height: 125px;
+  @media screen and (min-width: 760px) {
+    width: 110px;
+    height: 110px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 130px;
+    height: 130px;
   }
 `;
 
 export const Title = styled.h1`
   font-size: 45px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 760px) {
     font-size: 55px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 65px;
   }
 `;
 
 export const LeftInfo = styled.div`
-  position: relative;
   display: flex;
   align-items: center;
 `;
 
 export const Contacts = styled.ul`
   position: absolute;
-  top: 102%;
-  right: 280%;
-  display: flex;
-  justify-content: space-evenly;
-  // flex-direction: column;
+  top: 60px;
+  left: 0;
+  // transform: translate(-50%);
+  display: none;
+  justify-content: space-around;
   border-radius: 5px;
-  width: 325px;
+  width: 400px;
 
   background-color: #fff;
-  box-shadow: 0px 5px 4px 0px;
+  box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.4);
+
+  @media screen and (min-width: 760px) {
+    top: 70px;
+    width: 450px;
+  }
 `;
 
 export const ContentContact = styled.a`
   display: block;
   padding: 2px;
   margin: 2px 0;
-  font-size: 12px;
+  font-size: 19px;
   font-weight: bold;
 
   &:hover,
@@ -94,7 +115,7 @@ export const Basket = styled.button`
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 760px) {
     padding: 3px;
     width: 60px;
     height: 60px;

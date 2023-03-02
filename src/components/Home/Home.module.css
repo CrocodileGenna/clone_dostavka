@@ -1,10 +1,22 @@
 .card {
-  width: 220px;
-  cursor: pointer;
+  /* width: 220px;
+  cursor: pointer; */
 }
 .conteinerCard {
-  display: grid;
+  /* display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 4vw;
+  grid-gap: 4vw; */
+}
+.conteinerCard {
+  display: flex;
+  padding: 0 16px;
+  width: 1200px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.card {
+  width: 320px;
 }
