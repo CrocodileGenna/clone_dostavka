@@ -25,7 +25,7 @@ export function Header() {
               <ContentContact>+380992121234</ContentContact>
             </li>
             <li>
-              <ContentContact>fast_deliv@gmail.com</ContentContact>
+              <ContentContact>food-del@gmail.com</ContentContact>
             </li>
           </Contacts>
           <Basket>
