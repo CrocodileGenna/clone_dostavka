@@ -1,4 +1,4 @@
-import { TitleMenuStyle, OnePosition, Link } from './styled/Menu.styled';
+import { TitleMenuStyle, OnePosition, Link } from './styled/TitleMenu.styled';
 
 export function TitleMenu({ props }) {
   //   console.log(props);
