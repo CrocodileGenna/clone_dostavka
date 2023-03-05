@@ -11,10 +11,7 @@ export function TitleMenu({ props }) {
           renderedTypes.add(title);
           return (
             <OnePosition key={title}>
-              <Link href={title}>
-                {title}
-                {console.log(title)}
-              </Link>
+              <Link href={title}>{title}</Link>
             </OnePosition>
           );
         }

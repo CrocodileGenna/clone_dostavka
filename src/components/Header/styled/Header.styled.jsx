@@ -10,6 +10,7 @@ export const HeaderStyled = styled.header`
   height: 70px;
   background-color: #fff;
   box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.4);
+  z-index: 9999;
 
   @media screen and (min-width: 760px) {
     height: 80px;
