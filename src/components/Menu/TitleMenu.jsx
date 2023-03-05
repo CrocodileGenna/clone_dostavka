@@ -11,7 +11,10 @@ export function TitleMenu({ props }) {
           renderedTypes.add(title);
           return (
             <OnePosition key={title}>
-              <Link href={title}>{title}</Link>
+              <Link href={title}>
+                {title}
+                {console.log(title)}
+              </Link>
             </OnePosition>
           );
         }
@@ -20,11 +23,3 @@ export function TitleMenu({ props }) {
     </TitleMenuStyle>
   );
 }
-//  if (!renderedTypes.has(title)) {
-//    renderedTypes.add(title);
-//    return (
-//      <OnePosition key={title}>
-//        <Link href={title}>{title}</Link>
-//      </OnePosition>
-//    );
-//  }
