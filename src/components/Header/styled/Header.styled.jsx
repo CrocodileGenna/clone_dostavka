@@ -38,8 +38,8 @@ export const ContentHeader = styled.div`
 `;
 
 export const Logo = styled.img`
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
 
   @media screen and (min-width: 760px) {
     width: 110px;
@@ -52,10 +52,11 @@ export const Logo = styled.img`
 `;
 
 export const Title = styled.h1`
-  font-size: 45px;
+  font-size: 25px;
+  font-family: Ubuntu;
 
   @media screen and (min-width: 760px) {
-    font-size: 55px;
+    font-size: 45px;
   }
   @media screen and (min-width: 1200px) {
     font-size: 65px;
@@ -106,8 +107,8 @@ export const Basket = styled.button`
   margin: 5px;
   padding: 2px;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 
   &:hover,
   &:focus {

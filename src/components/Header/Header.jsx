@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import logo from './images/1.png';
 import basket from './images/addSale.png';
 import {
