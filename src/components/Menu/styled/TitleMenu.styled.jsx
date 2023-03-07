@@ -5,20 +5,18 @@ export const TitleMenuStyle = styled.ul`
   // padding: 15px;
 
   position: fixed;
-  left: 20px;
+  left: 4%;
 
   // border-radius: 4px;
   // align-items: center;
   // justify-content: space-evenly;
-
-  background-color: #d1d1d1d1;
-
+  // background-color: #d1d1d1d1;
   @media screen and (min-width: 760px) {
-    left: 60px;
+    left: 5%;
   }
 
   @media screen and (min-width: 1200px) {
-    left: 130px;
+    left: 6%;
   }
 `;
 
@@ -28,7 +26,7 @@ export const OnePosition = styled.li`
   height: 100%;
 `;
 
-export const Link = styled.a`
+export const OneLink = styled.a`
   display: flex;
   justify-content: center;
   padding: 4px;
@@ -36,6 +34,8 @@ export const Link = styled.a`
   font-size: 8px;
   font-weight: bold;
   text-decoration: none;
+  width: 100%;
+  border: none;
   background-color: #ff000094;
   color: #fff;
 
@@ -60,6 +60,6 @@ export const Link = styled.a`
     cursor: pointer;
     font-weight: bold;
     color: red;
-    background-color: #fff;
+    background-color: #d1d1d1d1;
   }
 `;

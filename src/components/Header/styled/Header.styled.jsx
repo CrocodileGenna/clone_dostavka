@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const HeaderStyled = styled.header`
-  position: fixed;
+  // position: fixed;
   display: flex;
   justify-content: center;
   top: 0;
@@ -39,16 +39,13 @@ export const ContentHeader = styled.div`
 `;
 
 export const Logo = styled.img`
-  width: 90px;
-  height: 90px;
+  width: 60px;
 
   @media screen and (min-width: 760px) {
-    width: 110px;
-    height: 110px;
+    width: 80px;
   }
   @media screen and (min-width: 1200px) {
-    width: 130px;
-    height: 130px;
+    width: 110px;
   }
 `;
 
@@ -107,20 +104,22 @@ export const Basket = styled.button`
   padding: 0;
   margin: 5px;
   padding: 2px;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 50px;
 
   &:hover,
   &:focus {
     cursor: pointer;
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
+    // box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.25);
   }
 
   @media screen and (min-width: 760px) {
-    padding: 3px;
     width: 60px;
-    height: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 80px;
   }
 `;
 

@@ -27,9 +27,17 @@ export const GlobalStyle = styled.div`
     padding-left: 0;
     list-style: none;
   }
-  // img {
-  //   display: block;
-  //   max-width: 100%;
-  //   height: auto;
-  // }
+`;
+
+export const Container = styled.div`
+  margin: 30px auto 0;
+  max-width: 1200px;
+
+  @media screen and (min-width: 760px) {
+    padding: 16px;
+    // margin: 40px auto 0;
+  }
+  @media screen and (min-width: 1200px) {
+    margin: 50px auto 0;
+  }
 `;

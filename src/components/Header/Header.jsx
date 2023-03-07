@@ -1,6 +1,7 @@
 // import React from 'react';
-import logo from './images/1.png';
-import basket from './images/addSale.png';
+import logo from './images/location-pin-svgrepo-com.svg';
+import basket from './images/basket-free-material-svgrepo-com.svg';
+import home from '../Home/Home';
 import {
   HeaderStyled,
   ContentHeader,
@@ -17,7 +18,9 @@ export function Header() {
   return (
     <HeaderStyled>
       <ContentHeader>
-        <Logo src={logo} alt="logo" />
+        <a href={home}>
+          <Logo src={logo} alt="logo" />
+        </a>
         <Title>FOOD DELIVERY</Title>
         <LeftInfo>
           <Contacts>

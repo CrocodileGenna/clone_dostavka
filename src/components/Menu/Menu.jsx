@@ -1,6 +1,12 @@
 // import React from 'react';
 import { OneCard } from './OneCard';
-import { MenuStyled, ConteinerMenu } from './styled/Menu.styled';
+import {
+  MenuStyled,
+  ConteinerMenu,
+  OneList,
+  TitlePosition,
+  OneCase,
+} from './styled/Menu.styled';
 // import { MenuStyled, TitleMenu, OnePosition, Link } from './styled/Menu.styled';
 import { TitleMenu } from './TitleMenu';
 
@@ -9,11 +15,15 @@ export function Menu({ prop }) {
     <ConteinerMenu>
       <TitleMenu props={prop} />
       <MenuStyled>
-        {prop.map(props => {
+        {prop.map(prop => {
+          const { title } = prop;
           return (
-            <li key={props.name}>
-              <OneCard prop={props} />
-            </li>
+            <OneCase key={title} id={title}>
+              <TitlePosition>{title}</TitlePosition>
+              <OneList>
+                <OneCard position={prop} />
+              </OneList>
+            </OneCase>
           );
         })}
       </MenuStyled>
