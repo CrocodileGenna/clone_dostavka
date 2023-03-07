@@ -21,10 +21,10 @@ const App = () => {
         <Routes>
           <Route path="/clone_dostavka" element={<Home />} />
           <Route path="/clone_dostavka/KFC" element={<Menu prop={menuKFC} />} />
-          {/* <Route
+          <Route
             path="/clone_dostavka/PizzaDay"
             element={<Menu prop={menuPizza} />}
-          /> */}
+          />
         </Routes>
       </Container>
       <Footer />
