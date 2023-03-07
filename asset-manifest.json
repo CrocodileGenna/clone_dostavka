@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/clone_dostavka/static/css/main.a470acad.css",
-    "main.js": "/clone_dostavka/static/js/main.4199428b.js",
+    "main.css": "/clone_dostavka/static/css/main.5a0c186c.css",
+    "main.js": "/clone_dostavka/static/js/main.bf832a15.js",
     "static/media/pizza1.jpg": "/clone_dostavka/static/media/pizza1.22b70b62296cdfdb8f7a.jpg",
     "static/media/pizza13.jpg": "/clone_dostavka/static/media/pizza13.f4a7e8f968348ed18ba1.jpg",
     "static/media/pizza8.jpg": "/clone_dostavka/static/media/pizza8.d5b38d1f9656fe377771.jpg",
@@ -32,7 +32,6 @@
     "static/media/12.jpg": "/clone_dostavka/static/media/12.50b05ea00884caa38ddf.jpg",
     "static/media/20.jpg": "/clone_dostavka/static/media/20.d5a0cb05863ef42900f3.jpg",
     "static/media/21.jpg": "/clone_dostavka/static/media/21.5d044c3cf64341b9d648.jpg",
-    "static/media/1.png": "/clone_dostavka/static/media/1.51a3c93dc6a5748d7b59.png",
     "static/media/14.jpg": "/clone_dostavka/static/media/14.52e4515852ee3715f5f2.jpg",
     "static/media/11.jpg": "/clone_dostavka/static/media/11.ab95f89677a69feef199.jpg",
     "static/media/13.jpg": "/clone_dostavka/static/media/13.f1137ab4469ae9fd092b.jpg",
@@ -47,12 +46,14 @@
     "static/media/sushiFamily.jpg": "/clone_dostavka/static/media/sushiFamily.f0ef7930b05e50b64c10.jpg",
     "static/media/pizzaDay.jpg": "/clone_dostavka/static/media/pizzaDay.429304c6f67261a0a986.jpg",
     "static/media/MyPlace.jpg": "/clone_dostavka/static/media/MyPlace.eeae8a235c13f664b164.jpg",
+    "static/media/basket-free-material-svgrepo-com.svg": "/clone_dostavka/static/media/basket-free-material-svgrepo-com.9fdaa74eead3f6d1ad4f7eb13812bc95.svg",
     "index.html": "/clone_dostavka/index.html",
-    "main.a470acad.css.map": "/clone_dostavka/static/css/main.a470acad.css.map",
-    "main.4199428b.js.map": "/clone_dostavka/static/js/main.4199428b.js.map"
+    "static/media/location-pin-svgrepo-com.svg": "/clone_dostavka/static/media/location-pin-svgrepo-com.af1d72d70ccd2e6f6af7eba998643b4f.svg",
+    "main.5a0c186c.css.map": "/clone_dostavka/static/css/main.5a0c186c.css.map",
+    "main.bf832a15.js.map": "/clone_dostavka/static/js/main.bf832a15.js.map"
   },
   "entrypoints": [
-    "static/css/main.a470acad.css",
-    "static/js/main.4199428b.js"
+    "static/css/main.5a0c186c.css",
+    "static/js/main.bf832a15.js"
   ]
 }
