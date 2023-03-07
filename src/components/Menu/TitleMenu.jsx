@@ -5,7 +5,6 @@ import {
 } from './styled/TitleMenu.styled';
 
 export function TitleMenu({ props }) {
-  const ret = [];
   return (
     <TitleMenuStyle>
       {props.map(({ title }) => {
